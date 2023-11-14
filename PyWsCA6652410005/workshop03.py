@@ -21,8 +21,7 @@ while True:
     selec = input("เลือกเมนู: ")
 
     if selec == '0':
-        print("โปรแกรมจบการทำงาน")
-        break
+        print("กรุณาเลือกเมนู 1, 2, 3, 4 หรือ 0 เท่านั้น")
     elif selec in ('1', '2', '3', '4'):
         if selec == '1':
             w = float(input("ป้อนความกว้าง: "))
